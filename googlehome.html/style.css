@@ -1,0 +1,252 @@
+a {
+  text-decoration: none;
+}
+
+/********************** panel *********************/
+.panel {
+  padding: 1px;
+  background-color: white;
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.header {
+  display: flex;
+  color: black;
+  padding: 5px 5px;
+  text-decoration: none;
+  justify-content: flex-end;
+  min-width: 30%;
+  order: 1;
+}
+
+a.gmail {
+  display: block;
+  padding: 15px;
+  white-space: nowrap;
+  color: #70757a;
+}
+
+a.görseller {
+  display: block;
+  padding: 15px;
+  white-space: nowrap;
+  color: #70757a;
+}
+
+a.uygulama img {
+  width: 20px;
+  height: 20px;
+  padding: 15px;
+}
+
+a.e img {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  border: 0;
+  border-radius: 50%;
+}
+
+/********************* google görseli ********************/
+.container {
+  text-align: center;
+  margin: 100px;
+  border-radius: 50px;
+}
+
+/********************* arama butonu **********************/
+.search-area {
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  margin-top: -77px;
+  width: 582px;
+  border-radius: 20px;
+}
+
+.search-area:hover {
+box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+}
+
+.search {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 16px;
+  padding-left: 14px;
+}
+
+.search-img {
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  margin-top: -5px;
+}
+
+.search-img span {
+  color: #9aa0a6;
+  height: 20px;
+  width: 20px;
+  margin-top: 0px;
+  display: inline-block;
+  fill: currentColor;
+  line-height: 24px;
+  position: relative;
+}
+
+.input-enter {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  width: 480px;
+}
+
+.input-area {
+  color: transparent;
+  flex: 100%;
+  white-space: pre;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  display: block;
+}
+
+.input {
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  margin-top: -68px;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: start;
+  appearance: textfield;
+  cursor: text;
+  border: none;
+}
+
+/******************* Mikrofon eklendi ************************/
+.microphone {
+  flex: 1 0 auto;
+  display: flex;
+  cursor: pointer;
+  align-items: flex-end;
+  border: 0;
+  background: transparent;
+  outline: none;
+  padding: 0 8px;
+  width: 24px;
+  line-height: 44px;
+}
+
+.goxjub {
+  height: 50px;
+  width: 50px;
+  vertical-align: middle;
+}
+
+{
+  fill:
+        rgb(66, 133, 244)  
+     d: path("m 12 15 c 1.66 0 3 -1.31 3 -2.97 v -7.02 c 0 -1.66 -1.34 -3.01 -3 -3.01 s -3 1.34 -3 3.01 v 7.02 c 0 1.66 1.34 2.97 3 2.97 Z");
+}
+
+{
+  fill: 
+        rgb(52, 168, 83);
+     d: path("m 11 18.08 h 2 v 3.92 h -2 Z");
+}
+
+{
+  fill: 
+        rgb(251, 188, 5);
+     d: path("m 7.05 16.87 c -1.27 -1.33 -2.05 -2.83 -2.05 -4.87 h 2 c 0 1.45 0.56 2.42 1.47 3.38 v 0.32 l -1.15 1.18 Z");
+}
+
+{
+  fill: 
+        rgb(234, 67, 53);
+     d: path("m 12 16.93 a 4.97 5.25 0 0 1 -3.54 -1.55 l -1.41 1.49 c 1.26 1.34 3.02 2.13 4.95 2.13 c 3.87 0 6.99 -2.92 6.99 -7 h -1.99 c 0 2.92 -2.24 4.93 -5 4.93 Z");
+}
+
+/****************** button ********************/
+.buttons {
+  text-align: center;
+}
+
+.googlesearch {
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  min-width: 36px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  font: 14px arial, #5f6368;
+  border-width: 1px;
+  border-color: #f2f2f2;
+}
+
+.feelinglucky {
+  padding: 0 16px;
+  line-height: 27px;
+  min-width: 36px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  font: 14px arial, #5f6368;
+  border-width: 1px;
+  border-color: #f2f2f2;
+}
+
+/*************************footer**********************/
+footer {
+  margin-top: 280px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.AghGtd {
+  justify-content: flex-start;
+  min-width: 30%;
+  order: 1;
+}
+
+.KxwPGc {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.iTjxkf {
+  justify-content: flex-end;
+  min-width: 30%;
+  order: 1;
+}
+
+a.pHiOh {
+  color: #70757a;
+}
+
+.pHiOh {
+  display: block;
+  padding: 15px;
+  white-space: nowrap;
+}
